@@ -10,7 +10,7 @@ const PokemonesContainer = () => {
 
     return (
         <div className="container">
-            {pokemons && pokemons.map((pokemon, index) => <Pokemon key = {index} data = {pokemon} />)}
+            {pokemons && pokemons.map((pokemon, index) => <Pokemon key = {index} pokemon = {pokemon} />)}
         </div>
     )
 }
